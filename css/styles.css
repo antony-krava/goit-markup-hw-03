@@ -169,17 +169,17 @@ body {
 /* ========== END HERO ========== */
 
 /* ========== ADVANTAGES ========== */
-.advanteges-list {
+.advantages-list {
   display: flex;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.main-advanteges-list:not(:last-child) {
+.main-advantages-list:not(:last-child) {
   margin-right: 30px;
 }
 
-.advanteges-list-title {
+.advantages-list-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
@@ -187,7 +187,7 @@ body {
   text-transform: uppercase;
 }
 
-.advanteges-list-description {
+.advantages-list-description {
   color: var(--description-text-color);
 
   font-weight: 400;
@@ -199,16 +199,40 @@ body {
 
 /* ========== WORKPLACE ========== */
 .section-title {
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+.workplace-list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 94px;
+}
 /* ========== END WORKPLACE ========== */
 
 /* ========== TEAM ========== */
+.team-section .section-title {
+  padding-top: 94px;
+}
+
+.team-list {
+  display: flex;
+  padding-bottom: 94px;
+}
+
+.main-team-list:not(:last-child) {
+  margin-right: 30px;
+}
+
 .team-list-name {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.188;
@@ -217,6 +241,8 @@ body {
 }
 
 .team-list-position {
+  padding-bottom: 30px;
+
   color: var(--description-text-color);
 
   font-weight: 400;
@@ -228,16 +254,36 @@ body {
 /* ========== END TEAM ========== */
 
 /* ========== FOOTER ========== */
-/* .footer-logo { */
-/* color: var(--main-white-color); */
-/* } */
+.footer {
+  background-color: var(--footer-bg-color);
+}
 
-/* .street { */
-/* color: var(--main-white-color); */
-/* } */
+.footer .logo {
+  margin-right: 0;
+}
+.footer-logo {
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+
+.footer-logo .logo {
+  color: var(--main-white-color);
+}
+
+.footer-address-list {
+  padding-bottom: 60px;
+}
+
+.main-footer-address-list:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.street {
+  color: var(--main-white-color);
+}
 
 .footer-address-list-item {
-  /* color: var(--footer-address-color); */
+  color: var(--footer-address-color);
 
   font-weight: 400;
   font-size: 14px;
